@@ -45,14 +45,14 @@
                             <label>Password</label>
                             <input type="Password" name="pass" required>
                             <button type="submit" name="submit">Login</button>
-                            <a href="index.php">Home</a>
+                            <a href="../index.php">Home</a>
                             <a href="fp.php">forget password?</a>
                             <a href="new.php">Didn't have account!</a>
                             <a href="ulogin.php">Refresh</a>
                         </form>
                     </div>
                     <div class="footer">
-                       <p>Copyright &copy; MCA Portal 2024</p>
+                       <p>Copyright &copy; MCA Portal 2025</p>
                     </div>
             </div>
       </body>
