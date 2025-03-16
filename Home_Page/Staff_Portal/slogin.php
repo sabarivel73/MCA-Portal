@@ -47,7 +47,6 @@
                             <button type="submit" name="submit">Login</button>
                             <a href="../index.php">Home</a>
                             <a href="fp.php">forget password?</a>
-                            <a href="new.php">Didn't have account!</a>
                             <a href="slogin.php">Refresh</a>
                         </form>
                     </div>
