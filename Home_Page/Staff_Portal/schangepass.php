@@ -8,7 +8,7 @@
     }
     if(!isset($_SESSION["ID"]))
     {
-	    header("location:ulogin.php");
+	    header("location:slogin.php");
     }
 ?>
 <!DOCTYPE HTML>
