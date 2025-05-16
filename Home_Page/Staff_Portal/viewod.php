@@ -28,7 +28,7 @@
     </head>
     <body>
         <div class="container">
-            <h2>View Announcements</h2>
+            <h2>View On Duty Form</h2>
             <a class="a1" href='smhome.php'>Back</a>
         </div>
         <div class="main">
@@ -41,9 +41,11 @@
                        echo"<table>
                        <tr>
                        <th>SNO</th>
+                       <th>STUDENT NAME</th>
+                       <th>PERIOD DATE</th>
+                       <th>PERIOD</th>
                        <th>MESSAGE</th>
                        <th>VIEW</th>
-                       <th>DELETE</th>
                        </tr>
                     ";
                     $i=0;
@@ -52,6 +54,9 @@
                        $i++;
                        echo"<tr>";
                        echo"<td>{$i}</td>";
+                       echo"<td>{$row["UNAME"]}</td>";
+                       echo"<td>{$row["PERIOD_DATE"]}</td>";
+                       echo"<td>{$row["PERIOD"]}</td>";
                        echo"<td>{$row["MESSAGE"]}</td>";
                        if(!empty($row["FILE"]))
                        {
@@ -61,7 +66,6 @@
                        {
                         echo"<td><p>No File</p></td>";
                        }
-                       echo"<td><a href='delete2.php?id={$row["AID"]}'>Delete</a></td>";
                        echo"</tr>";
                     }
                     echo"</table>";
