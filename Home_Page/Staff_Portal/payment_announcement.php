@@ -61,7 +61,6 @@
         </div>
         <div class="container">
             <h3>View Payments</h3>
-            <a class="a1" href='smhome.php'>Back</a>
         </div>
         <div class="main">
             <div class="content">
